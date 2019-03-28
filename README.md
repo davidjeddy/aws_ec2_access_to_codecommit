@@ -1,6 +1,8 @@
 # README
-This contains simple terraform scripts, to create an iam role, an iam policy, spin up a new ec2 instance and attach it to that instance. 
-This was completely done based on the samples provided in the official documentation of Terraform.
+
+This contains simple terraform scripts, to create an iam role, an iam policy, spin up a new ec2 instance and attach the role to that instance. 
+
+This was completely done based on the samples provided in the official documentation of Terraform and [Kulasanger's similar example](https://github.com/Kulasangar/terraform-demo.git).
 
 ## Terraform Commands
 
@@ -8,24 +10,4 @@ This was completely done based on the samples provided in the official documenta
 terraform init
 terraform plan
 terraform apply
-```
-
-## Bash Commands
-
-### CentOS / RHEL
-
-``` bash
-sudo apt-get purge aws
-sudo apt-get install python-pip
-sudo pip install awscli
-git config --global credential.helper '!aws codecommit credential-helper $@'
-git config --global credential.UseHttpPath true
-```
-
-``` bash
-sudo apt-get purge aws
-sudo apt-get install python-pip
-sudo pip install awscli
-git config --global credential.helper '!aws codecommit credential-helper $@'
-git config --global credential.UseHttpPath true
 ```
