@@ -12,11 +12,11 @@ This was completely done based on the samples provided in the official documenta
 
 ## Requirements
 
-- Terminal
-- SSH
-- AWS account
-- AWSCLI API keys
-- Terraform
+- [Terminal](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/)
+- [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
+- [AWS account](http://aws.amazon.com)
+- [AWS CLI API keys](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-setup-api-key-with-console.html)
+- [Terraform](https://www.terraform.io/)
 
 ## Usage
 
